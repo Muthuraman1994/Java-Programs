@@ -13,6 +13,7 @@ public class MapExample {
 		m.put(50, "D");
 		m.put(30, "E");
 		
+		m.put(77, "E");
 		System.out.println(m);
 		
 		System.out.println("============");
