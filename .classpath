@@ -4,3 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
+	<classpathentry kind="lib" path="Driver/ojdbc14.jar"/>
+
+
