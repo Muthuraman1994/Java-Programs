@@ -1,0 +1,245 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Verify Login functionality for valid username and valid password.",
+        "description": "",
+        "id": "booking-hotel-by-adacin-web-application.;verify-login-functionality-for-valid-username-and-valid-password.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8884746100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify the user on Adacin Loginpage.",
+            "match": {
+              "location": "AdacinStepDefinition.verify_the_user_on_Adacin_Loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 174107300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter valid \"Muthuram0206\" and \"Muthu@99444\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Muthuram0206\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Muthu@99444\"",
+                  "offset": 36
+                }
+              ],
+              "location": "AdacinStepDefinition.user_enter_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2221542600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click the login button",
+            "match": {
+              "location": "AdacinStepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "select Hotelpage display",
+            "match": {
+              "location": "AdacinStepDefinition.select_Hotelpage_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 853198200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters \"Melbourne\",\"Hotel Sunshine\",\"Double\",\"1 - One\",\"09/07/2022\",\"10/07/2022\",\"2 - Two\" and \"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"09/07/2022\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"10/07/2022\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 100
+                }
+              ],
+              "location": "AdacinStepDefinition.user_enters_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 508199100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click on Search Button",
+            "match": {
+              "location": "AdacinStepDefinition.user_click_on_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49215000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user review the selected options",
+            "match": {
+              "location": "AdacinStepDefinition.user_review_the_selected_options()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 526092900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click continue Butn",
+            "match": {
+              "location": "AdacinStepDefinition.user_click_continue_Butn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 824221300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter the \"Raj\",\"Kumar\",\"22,Nadiyamman koil street,Thanjavur-614601\",\"4456789445678923\",\"VISA\",\"May\",\"2022\" and \"137\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Raj\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Kumar\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"22,Nadiyamman koil street,Thanjavur-614601\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"4456789445678923\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 93
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 106
+                },
+                {
+                  "val": "\"137\"",
+                  "offset": 117
+                }
+              ],
+              "location": "AdacinStepDefinition.user_enter_the_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52822600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click bookNow button",
+            "match": {
+              "location": "AdacinStepDefinition.user_click_bookNow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5534084400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Hotel booking confirmation",
+            "match": {
+              "location": "AdacinStepDefinition.hotel_booking_confirmation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 106800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Print the Order ID",
+            "match": {
+              "location": "AdacinStepDefinition.print_the_Order_ID()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Booking Hotel by Adacin Web Application.",
+    "description": "",
+    "id": "booking-hotel-by-adacin-web-application.",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Adacin.feature",
+    "tags": []
+  }
+]
