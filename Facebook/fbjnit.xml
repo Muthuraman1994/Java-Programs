@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="29.253467">
+<testcase classname="Verify Login functionality in Facebook Application." name="Verify Login functionality for valid username and invalid password" time="8.808068">
+<system-out><![CDATA[Given verify the user is on facebook login page.............................passed
+When users enters "user1" and "Test1234"....................................passed
+And user click the login button.............................................passed
+Then error page is didplayed................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Login functionality in Facebook Application." name="Verify Login functionality for valid username and invalid password 2" time="6.799435">
+<system-out><![CDATA[Given verify the user is on facebook login page.............................passed
+When users enters "user2" and "Test4678"....................................passed
+And user click the login button.............................................passed
+Then error page is didplayed................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Login functionality in Facebook Application." name="Verify Login functionality for valid username and invalid password 3" time="6.771367">
+<system-out><![CDATA[Given verify the user is on facebook login page.............................passed
+When users enters "user3" and "Test1122"....................................passed
+And user click the login button.............................................passed
+Then error page is didplayed................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Login functionality in Facebook Application." name="Verify Login functionality for valid username and invalid password 4" time="6.874597">
+<system-out><![CDATA[Given verify the user is on facebook login page.............................passed
+When users enters "user4" and "Test2233"....................................passed
+And user click the login button.............................................passed
+Then error page is didplayed................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
